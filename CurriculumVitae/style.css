@@ -244,20 +244,21 @@ a.btnlink:hover
 #about_me
 {
 	margin: 0px;
-	height: 400px;
+	height: 435px;
 }
 
 .ab_content
 {
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/qbkls.png");
+	*/do poprawy!!! wysokosc!!!*/
 }
 
 .photo
 {
 	float: left;
-	width: 440px;
-	height: 400px;
+	width: 435px;
+	height: 435px;
 	text-align:center;
 }
 
@@ -273,7 +274,7 @@ a.btnlink:hover
 {
 	float:left;
 	width: 55%;
-	height: 400px;
+	height: 435px;
 	padding-left:20px;
 	padding-right: 20px;
 	padding-top: 35px;
@@ -287,6 +288,40 @@ a.btnlink:hover
 {
 	text-align: right;
 }
+	
+#technologies_art
+{
+	margin:0px;
+	height: 1000px;	
+}
+
+.technologies_cont
+{
+	/* Background pattern from Toptal Subtle Patterns*/
+	/*background-image: url("img/cream_pixels.png");*/
+	height:1000px;
+	text-align: center;
+	background-color:yellow;
+}
+
+.technologies_text
+{
+	margin-top: 35px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color:green;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
