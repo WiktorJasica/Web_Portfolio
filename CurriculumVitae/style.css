@@ -35,10 +35,10 @@ header
 	margin:0px;
 	float:left;
 	width:30%;
-	height:70px;
 	text-align:right;
 	color:#EEBB00;
 	font-size:22px;
+	transition: all 0.3s ease-in-out;
 }
 
 .logo > h1
@@ -65,7 +65,6 @@ header
 {
 	float: left;
 	width:70%;
-	height:70px;
 	margin:0px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -95,6 +94,12 @@ header
 	z-index: 100;
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/binding_dark.png");
+}
+
+.shrink
+{
+	padding-top: 8px;
+	font-size: 16px;
 }
 
 .info
@@ -239,8 +244,7 @@ a.btnlink:hover
 #about_me
 {
 	margin: 0px;
-	height: 500px;
-	background-color:green;
+	height: 400px;
 }
 
 .ab_content
@@ -252,30 +256,36 @@ a.btnlink:hover
 .photo
 {
 	float: left;
-	width: 33%;
-	height: 500px;
+	width: 440px;
+	height: 400px;
 	text-align:center;
 }
 
 .photo > img
 {
 	height: 160px;
-	border-radius: 160px;
-	padding-top:120px;
+	margin-top: 110px;
+	margin-left: 50px;
+	border-radius: 20px;
 }
 
 .text
 {
 	float:left;
-	width: 50%;
-	height: 470px;
+	width: 55%;
+	height: 400px;
 	padding-left:20px;
 	padding-right: 20px;
-	padding-top: 30px;
+	padding-top: 35px;
 	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 30px;
 	text-align: justify;
+}
+
+.greet
+{
+	text-align: right;
 }
 	
 	

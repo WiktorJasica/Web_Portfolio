@@ -120,13 +120,13 @@
 				<div class="text">
 					<h1>ABOUT ME</h1>
 					<p>
-					Hi, I'm Wiktor. I'm Automatic with experience in industry and seeking job in IT as Junior Java Developer. 
-					I learnt VisualBasic for myself when I worked as a structural engineer. I designed several applications that helped me with structural callculations. The hobby turned into keenen for programming.
+					Hi, I'm Wiktor. I'm Automatic with experience in industry who is seeking job in IT as Junior Java Developer.</br>
+					I learn Java for myself while I'm working on shifts as Automation  engineer and in my free time at home. I'm well versed in a variety of industrial process engineering, field instrumentation, and hardware with a proven ability to master new tools and technologies quickly. I represent “Can do” attitude and a desire for continuous learning, always seeking new challenges and ways to solve problems and improve daily tasks.
 					</br>
-					I decided to give up work at the end of last year. I have been learning Java indepedently from begin of 2018 year. I'm looking for an internship / job as a Junior Java Developer or similar actually. I want to develop the skills with Java.
+					I'm looking for an internship / job as a Junior Java Developer or similar actually. I want to develop the skills with Java.
 					<p>I encourage you to read the portfolio and contact me.</p>
 
-					<p>Sincerely,</br>
+					<p class="greet">Sincerely,</br>
 					Wiktor Jasica</p>
 				</div>
 													
@@ -154,9 +154,11 @@
 		var ScrollY = $(window).scrollTop();
 		  
 		if (ScrollY > NavY) { 
-			$('#nav').addClass('sticky');
+			$('#nav').addClass('sticky'),
+			$('.logo').addClass('shrink');
 		} else {
-			$('#nav').removeClass('sticky'); 
+			$('#nav').removeClass('sticky'),
+			$('.logo').removeClass('shrink');
 		}
 		};
 	 
