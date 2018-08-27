@@ -59,6 +59,7 @@
 .icon-database:before { content: '\e801'; } /* '' */
 .icon-ok-circled:before { content: '\e802'; margin-right: 10px; font-size: 20px;} /* '' */
 .icon-github-circled:before { content: '\f09b'; font-size: 40px; margin-top: 15px;} /* '' */
+.icon-linkedin-squared:before { content: '\f30c'; font-size: 40px; margin-top: 15px;} /* '' */
 .icon-html5:before { content: '\f13b'; font-size: 60px; margin-top: 20px; } /* '' */
 .icon-ok-squared:before { content: '\f14a'; } /* '' */
 .icon-html5:before { content: '\f13b'; font-size: 60px; margin-top: 20px; } /* '' */

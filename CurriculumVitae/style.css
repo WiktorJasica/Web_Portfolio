@@ -292,12 +292,13 @@ a.btnlink:hover
 #technologies_art
 {
 	margin:0px;
-	height: 900px;
+	height: 800px;
 }
 
 .technologies_container
 {
-	height: 900px;
+	margin:0px;
+	height: 800px;
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/cream_pixels.png");
 }
@@ -319,19 +320,19 @@ a.btnlink:hover
 
 .technologies_sc2
 {
-	height:550px;
+	height:450px;
 }
 	
 .technologies_blocks
 {
-	height:550px;
+	height:450px;
 }
 
 .block
 {
 	float:left;
 	width:449px;
-	height: 550px;
+	height: 450px;
 }
 	
 .language_logo
@@ -397,33 +398,38 @@ a.btnlink:hover
 
 .other_information_sc3
 {
-	margin:0px;
+	margin:0;
 	height:200px;
 }
-
 .other_information_block
 {
-	height:200px;
+	height: 200px;
 }
-
 .other_information_text
 {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
 	height:50px;
-	font-size: 35px;
+	margin:0px;
 	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
 	font-weight: bold;
 	letter-spacing:1.5px;
 }
 
+.sc3_list
+{
+	height:150px;
+}
 
 .other_information_list
 {
+	margin:0px;
 	display:block;
 	text-align: center;
-	padding-top:15px;
+	padding-top:30px;
+	list-style-type:none;
 }
 
 .other_information_list > li
@@ -435,9 +441,87 @@ a.btnlink:hover
 	font-weight: bold;
 }
 
+#projects
+{
+	margin:0px;
+	height:800px;
+	background:gray;
+}
 
+.proj_container
+{
+	margin:0px;
+	height: 800px;
+	background-color: green;
+}
+
+.proj_sc1
+{
+	height:150px;
+	background-color: yellow;
+}
+
+.proj_text
+{
+	height:120px;
+	background-color:blue;
+	text-align:center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing:1.5px;
+	padding-top: 30px;
+}
+
+.proj_sc2
+{
+	height: 650px;
+	background-color: gray;
+}
+
+.proj_language
+{
+	height:50px;
+	background-color:yellow;
+	text-align:center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing:1.5px;
+}
+
+.proj_made
+{
+	margin:0px;
+	height: 600px;
+	background-color:orange;
+}
 	
-	
+.java_desctop
+{
+	height: 356px;
+	width:356px;
+	float:left;
+	background-color: brown;
+	margin-top: 30px;
+	margin-right: 101px;
+	margin-left:120px;
+}
+
+.java_desctop > img
+{
+	height: 356px;
+	width:356px;
+}
+
+.java_webap
+{
+	height: 356px;
+	width:661px;
+	float:left;
+	background-color: pink;
+	margin-top: 30px;
+}
 	
 	
 	
