@@ -509,6 +509,8 @@ a.btnlink:hover
 	margin:0px;
 	height: 356px;
 	width:356px;
+	border: 1px solid bray;
+	border-radius: 3%;
 }
 
 .java_desctop > a > img:hover
@@ -527,6 +529,8 @@ a.btnlink:hover
 .java_webap > a > img
 {
 	display:block;
+	border:1px solid gray;
+	border-radius: 2%;
 }
 
 .java_webap > a > img:hover
@@ -585,18 +589,26 @@ a.btnlink:hover
 #courses
 {
 	margin:0px;
-	height:700px;	
+	height:800px;	
 }
 
 .courses_container
 {
 	margin:0px;
-	height:700px;
+	height:800px;
 	background-color: gray;
+}
+
+.courses_sc1
+{
+	margin:0px;
+	height:150px;
+	background-color: blue;
 }
 
 .courses_text
 {
+	margin:0px;
 	height: 120px;
 	font-size: 35px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -605,6 +617,103 @@ a.btnlink:hover
 	padding-top: 30px;
 	text-align:center;
 	background:green;
+}
+
+.courses_sc2
+{
+	margin: 0px;
+	height: 500px;
+	background-color: orange;
+}
+
+.courses_blocks
+{
+	margin: 0px;
+	height: 500px;
+	background-color: brown;
+}
+
+.course_block
+{
+	margin-top:0px;
+	margin-right: auto;
+	margin-left:auto;
+	height:500px;
+	width: 455.3333px;
+	background-color: blue;
+}
+
+.block_logo
+{
+	margin-top:0px;
+	margin-right: auto;
+	margin-left:auto;
+	height: 150px;
+	width:150px;
+	border-radius:100%;
+}
+
+.block_logo > img
+{
+	margin-top:0px;
+	height: 150px;
+	width:150px;
+	border-radius:100%;
+}
+
+.block_course_element
+{
+	margin-top:0px;
+	height: 350px;
+	background-color: orange;
+}
+
+.page_name
+{
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 35px;
+	width:70%;
+	background-color:gray;
+	text-align:center;
+	padding-top: 15px;
+	border-radius:6px 6px 0px 0px;
+}
+
+.course_desc
+{
+	margi-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 70px;
+	width:70%;
+	background-color:white;
+	text-align:center;
+	padding-top: 30px;
+}
+
+.certificate
+{
+	margi-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 15px;
+	width:70%;
+	background-color:red;
+	text-align:center;
+}
+
+
+
+
+
+
+.courses_footer
+{
+	margin: 0px;
+	height: 150px;
+	background-color:yellow;
 }
 	
 	
