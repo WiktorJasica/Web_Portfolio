@@ -596,14 +596,12 @@ a.btnlink:hover
 {
 	margin:0px;
 	height:800px;
-	background-color: gray;
 }
 
 .courses_sc1
 {
 	margin:0px;
 	height:150px;
-	background-color: blue;
 }
 
 .courses_text
@@ -616,21 +614,18 @@ a.btnlink:hover
 	letter-spacing:3px;
 	padding-top: 30px;
 	text-align:center;
-	background:green;
 }
 
 .courses_sc2
 {
 	margin: 0px;
-	height: 500px;
-	background-color: orange;
+	height: 550px;
 }
 
 .courses_blocks
 {
 	margin: 0px;
-	height: 500px;
-	background-color: brown;
+	height: 550px;
 }
 
 .course_block
@@ -638,9 +633,8 @@ a.btnlink:hover
 	margin-top:0px;
 	margin-right: auto;
 	margin-left:auto;
-	height:500px;
+	height:550px;
 	width: 455.3333px;
-	background-color: blue;
 }
 
 .block_logo
@@ -656,16 +650,17 @@ a.btnlink:hover
 .block_logo > img
 {
 	margin-top:0px;
-	height: 150px;
-	width:150px;
+	height: 148px;
+	width:148px;
 	border-radius:100%;
+	border: 1px solid #ccccb3;
 }
 
 .block_course_element
 {
-	margin-top:0px;
+	margin-top:50px;
 	height: 350px;
-	background-color: orange;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .page_name
@@ -673,47 +668,74 @@ a.btnlink:hover
 	margin-top:0px;
 	margin-left:auto;
 	margin-right:auto;
-	height: 35px;
+	height: 30px;
 	width:70%;
-	background-color:gray;
+	background-color:#d6d6c2;
 	text-align:center;
-	padding-top: 15px;
+	font-weight:bold;
+	padding-top: 10px;
 	border-radius:6px 6px 0px 0px;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
 }
 
 .course_desc
 {
-	margi-top:0px;
+	margi-top:Spx;
 	margin-left:auto;
 	margin-right:auto;
 	height: 70px;
 	width:70%;
 	background-color:white;
 	text-align:center;
-	padding-top: 30px;
+	letter-spacing:1px;
+	padding-top: 20px;
+	line-height: 25px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
 }
 
 .certificate
 {
-	margi-top:0px;
+	margi-top: 0px;
 	margin-left:auto;
 	margin-right:auto;
-	height: 15px;
+	height: 20px;
 	width:70%;
-	background-color:red;
+	background-color:#e60000;
 	text-align:center;
+	font-weight:bold;
+	border-radius:0px 0px 6px 6px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
 }
 
+.udemy_certyficate
+{
+	color:black;
+}
 
-
-
-
+.udemy_certyficate:hover
+{
+	display:block;
+	opacity:0.8;
+}
 
 .courses_footer
 {
 	margin: 0px;
-	height: 150px;
-	background-color:yellow;
+	height: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer_txt
+{
+	margin: 0px;
+	height: 100px;
+	text-align:center;
+	font-size:19px;
 }
 	
 	
