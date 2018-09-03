@@ -784,29 +784,63 @@ a.btnlink:hover
 	background-color: gray;
 }
 
-.time_list
+.time_row_left
 {
-	margin-top:0px;
-	background-color: yellow;
-	list-style-type:none;
+	margi-top:0px;
+	background-color:yellow;	
+	height:150px;
 }
 
-.time_list > li
+.time_row_right
 {
-	height: 250px;
-	background-color: brown;
+	margi-top:0px;
+	background-color:brown;
+	height:150px;
 }
 
-.company
+.line
+{
+	margin-left:auto;
+	margin-right:auto;
+	height:50px;
+	width:2px;
+	background-color: white;
+}
+
+.company_left
 {
 	margin-top:0px;
+	margin-left:150px;
+	height:150px;
+	width:400px;
+	text-align:right;
+	background-color: red;
 	float:left;
 }
 
-.div_img
+.div_img_left
 {
 	float:left;
-	
+	background-color:blue;	
+	margin-left:50px;
+}
+
+.company_right
+{
+	margin-top:0px;
+	margin-left:50px;
+	height:150px;
+	width:400px;
+	text-align:left;
+	background-color: red;
+	float:left;
+}
+
+.div_img_right
+{
+	float:left;
+	background-color:blue;	
+	margin-left:600px;
 }
 
 .company_img
@@ -818,10 +852,7 @@ a.btnlink:hover
 	border-radius:100%;
 	border: 1px solid #ccccb3;
 }
-.line
-{
-	height:
-}
+
 
 	
 	
