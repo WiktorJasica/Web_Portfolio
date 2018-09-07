@@ -500,26 +500,57 @@ a.btnlink:hover
 .java_desctop
 {
 	height: 750px;
-	width:356px;
+	width:358px;
 	float:left;
 	margin-top: 30px;
 	margin-right: 101px;
 	margin-left:120px;
 }
 
-.java_desctop > a > img
+.overlay_d
 {
-	display:block;
+	position: relative;
+	height: 358px;
+	width: 358px;
+}
+
+.overlay_d > img
+{
 	margin:0px;
-	height: 356px;
-	width:356px;
-	border: 1px solid bray;
+	height: 100%;
+	width:100%;
+	border: 1px solid gray;
 	border-radius: 3%;
 }
 
-.java_desctop > a > img:hover
+.overlay_d .proj_link
 {
-	opacity:0.5;
+	position:absolute;
+	display:block;	
+	height: 100%;
+	width: 100%;
+	background-color: #FFCC00;
+	color:white;
+	top: 0px;
+	left: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+	border-radius: 3%;
+	border: 1px solid #FFCC00;
+}
+
+.overlay_d:hover .proj_link
+{
+	opacity:0.6;
+}
+
+.icon
+{
+	position: relative;
+	display:block;
+	text-align:center;
+	top: 35%;
+	font-size:72px;
 }
 
 .java_webap
@@ -530,16 +561,51 @@ a.btnlink:hover
 	margin-top: 30px;
 }
 
-.java_webap > a > img
+
+.overlay_w
 {
-	display:block;
-	border:1px solid gray;
+	position: relative;
+	height: 358px;
+	width:661px;
+}
+
+.overlay_w > img
+{
+	margin:0px;
+	height: 100%;
+	width:100%;
+	border: 1px solid gray;
 	border-radius: 2%;
 }
 
-.java_webap > a > img:hover
+.overlay_w .proj_link
 {
-	opacity:0.5;
+	position:absolute;
+	display:block;	
+	height: 100%;
+	width: 100%;
+	background-color: #FFCC00;
+	color:white;
+	top: 0px;
+	left: 0px;
+	opacity:0;
+	transition: opacity 0.5s ease-in-out;
+	border-radius: 2%;
+	border: 1px solid #FFCC00;
+}
+
+.overlay_w:hover .proj_link
+{
+	opacity:0.6;
+}
+
+.icon
+{
+	position: relative;
+	display:block;
+	text-align:center;
+	top: 35%;
+	font-size:72px;
 }
 
 .proj_title
@@ -968,19 +1034,28 @@ a.btnlink:hover
 #end_footer
 {
 	margin:0px;
-	height: 100px;
+	height: 80px;
+	display:block;
 }
 
-.footer_info
+.footer_conatainer
 {
-	padding-top: 15px;
-	width:250px;
-	margin-left:auto;
-	margin-right:auto;
+	margin:0px;
+	height: 80px;
 }
-	
-	
-	
+
+.Copyright_txt
+{
+	margin-top:0px;
+	width:100%;
+	padding-top: 30px;
+	float:left;
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align:center;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+		
 	
 	
 	

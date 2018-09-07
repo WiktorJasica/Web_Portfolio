@@ -47,6 +47,30 @@
       "css": "ok-squared",
       "code": 61770,
       "src": "fontawesome"
+    },
+    {
+      "uid": "197375a3cea8cb90b02d06e4ddf1433d",
+      "css": "globe",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1e89103762be72b0720eda0468e62b90",
+      "css": "globe-1",
+      "code": 59396,
+      "src": "linecons"
+    },
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59397,
+      "src": "zocial"
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59398,
+      "src": "fontawesome"
     }
   ]
 }
