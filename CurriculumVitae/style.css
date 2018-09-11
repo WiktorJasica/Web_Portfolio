@@ -1,4 +1,4 @@
-﻿body
+﻿#page_top
 {
 	margin:0px !important;
 }
@@ -12,6 +12,46 @@ a
 a:hover
 {
 	color:#FFCC00;
+}
+
+#my_nav
+{
+	/* Background pattern from Toptal Subtle Patterns*/
+	background-image: url("img/binding_dark.png");
+}
+
+#my_nav .navbar-toggler
+{
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	background-color: #fed136;
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#my_nav .navbar-brand
+{
+	color:#EEBB00;
+	font-size:22px;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:2px;
+}
+
+#navbarText
+{
+	
+}
+
+#my_nav .navbar-nav .nav-item .nav-link {
+	font-size: 18px;
+	font-weight: 400;
+	padding-right: 20px ;
+	letter-spacing: 2px;
+	color: #fff;
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 header
@@ -103,6 +143,7 @@ header
 	font-size: 16px;
 }
 
+/* Zaczyna sie info po NAVBAREM*/
 .info
 {
 	margin:0px;
