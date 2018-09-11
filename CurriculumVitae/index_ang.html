@@ -31,76 +31,81 @@
 
 <body id="page_top">
 
+	<!-- Navigation Bar Menu -->
 	<nav id="my_nav" class="navbar navbar-expand-lg navbar-light bg-light">
 	
-		<a class="navbar-brand" href="#">WiktorJasica.pl</a>
+		<a id="link8" class="navbar-brand" href="#">WiktorJasica.pl</a>
 		
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">Menu
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		
 		<div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav mr-auto">
+			<ul class="navbar-nav mr-auto ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">TECHNOLOGIES<span class="sr-only">(current)</span></a>
+					<a id="link1" class="nav-link" href="#">TECHNOLOGIES<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">PROJECTS</a>
+					<a id="link2" class="nav-link" href="#">PROJECTS</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">COURSES</a>
+					<a id="link3" class="nav-link" href="#">COURSES</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">EXPERIENCE</a>
+					<a id="link4" class="nav-link" href="#">EXPERIENCE</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">EDUCATION</a>
+					<a id="link5" class="nav-link" href="#">EDUCATION</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">CONTACT</a>
+					<a id="link6" class="nav-link" href="#">CONTACT</a>
 				</li>
 			</ul>
 		</div>
 	</nav>	
 		
-	<header>
+	<!-- Information About this Webpage -->
+	<header class="my_header">
 				
 		<article class="info">
 		
-			<section class="language">
-				<h4>Zmień język na: <a href="index_pl.html">POLSKI</a></h4>
-			</section>
+			<div class="container-fluid">
 			
-			<section class="welcome">
-				<h3>Welcome to my Web Curriculum Vitae</h3>
-			</section>
-			
-			<section class="author">
-				<div class="name">WIKTOR JASICA</div>
-			</section>
-			
-			<section class="description">
-				<h4>Automation Engineer, coding in Java.</h4>
-			</section>
-			
-		</article>
+				<section class="language">
+					<h4>Zmień język na: <a href="index_pl.html">POLSKI</a></h4>
+				</section>
 				
-		<div class="read_more">
-			<a id="link7" href="#" class="btnlink">READ MORE</a>
-		</div>
-		
-		<footer class="footer_1">
-		
-			<div class="socials">
-				<div class="github">
-					<a href="https://www.linkedin.com/in/wiktor-jasica-b4879b88/" target="_blank"><i class="icon-linkedin-squared"></i></a>
-				</div>
-				<div class="linkedin">
-					<a href="https://github.com/WiktorJasica" target="_balnk"><i class="icon-github-circled"></i></a>
-				</div>
-				<div style="clear:both;"></div>
+				<section class="welcome">
+					<h3>Welcome to my Web Curriculum Vitae</h3>
+				</section>
+				
+				<section class="author">
+					<div class="name">WIKTOR JASICA</div>
+				</section>
+				
+				<section class="description">
+					<h4>Automation Engineer, coding in Java.</h4>
+				</section>
+				
+			</article>
+					
+			<div class="read_more">
+				<a id="link7" href="#" class="btnlink">READ MORE</a>
 			</div>
-		</footer>	
+			
+			<footer class="footer_1">
+			
+				<div class="socials">
+					<div class="github">
+						<a href="https://www.linkedin.com/in/wiktor-jasica-b4879b88/" target="_blank"><i class="icon-linkedin-squared"></i></a>
+					</div>
+					<div class="linkedin">
+						<a href="https://github.com/WiktorJasica" target="_balnk"><i class="icon-github-circled"></i></a>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</footer>	
+		</div>
 	</header>
 	
 	<main>
@@ -601,17 +606,17 @@
 	
 		//Sticky menu bar
 		$(document).ready(function() {
-		var NavY = $('#nav').offset().top;
+		var NavY = $('#my_nav').offset().top;
 	 
 		var stickyNav = function(){
 		var ScrollY = $(window).scrollTop();
 		  
 		if (ScrollY > NavY) { 
-			$('#nav').addClass('sticky'),
-			$('.logo').addClass('shrink');
+			$('#my_nav').addClass('sticky'),
+			$('#link8').addClass('shrink');
 		} else {
-			$('#nav').removeClass('sticky'),
-			$('.logo').removeClass('shrink');
+			$('#my_nav').removeClass('sticky'),
+			$('#link8').removeClass('shrink');
 		}
 		};
 	 
