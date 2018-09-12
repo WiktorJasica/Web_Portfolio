@@ -39,7 +39,7 @@ a:hover
 	width:25%;
 	text-align:center;
 	color:#EEBB00;
-	font-size:30px;
+	font-size:28px;
 	font-family: 'Lato', sans-serif;
 	font-weight:bold;
 	letter-spacing:2px;
@@ -48,7 +48,7 @@ a:hover
 
 #my_nav .navbar-brand:hover
 {
-	color: #FFCC00;
+	color: #ffed00;
 }
 
 #my_nav .navbar-nav .nav-item .nav-link {
@@ -87,99 +87,78 @@ a:hover
 {
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/binding_dark.png");
-	margin: 0px;
 	color:white;
 }
 
 .language
 {
-	margin:0px;
+	padding-top:80px;
+	padding-bottom: 60px;
 	text-align: center;
-	height: 108px;
-}
-	
-.language > h4
-{
-	margin:0px;
-	padding-top: 80px;
-	color: gray;
+	font-size:18px;
+	font-weight:bold;
+	color:gray;
 	font-family: 'Lato', sans-serif;
 }
-.language > h4 > a
+	
+.language > a
 {
 	color:#EEBB00;
+	text-decoration:none;
 }
 
-.language > h4 > a:hover
+.language > a:hover
 {
 	color:#FFCC00;
 }
 	
 .welcome
 {
-	margin:0px;
+	font-size: 33px;
+	padding-bottom: 10px;
+	font-weight:bold;
+	font-family: 'Kanit', sans-serif;
 	text-align: center;
-	height: 108px;
 }
 
-.welcome > h3
-{
-	margin:0px;
-	padding-top: 45px;
-	font-size: 30px;
-	font-family: 'Kanit', sans-serif;
-}
 
 .author
 {
-	margin:auto;
-	height: 108px;
-	text-align: center;
-	font-size: 60px;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.name
-{
-	font-size: 60px;
-	padding:10px;
-	letter-spacing: 6px;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 75px;
+	padding-top:20px;
+	margin-bottom: 50px;
+	text-align:center;
+	letter-spacing:3px;
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .description
 {
-	margin:0px;
+	padding-top:5px;
+	padding-bottom:30px;
+	font-size:18px;
+	font-weight:bold;
 	text-align: center;
-	height: 60px;
 	color: gray;
 	font-family: 'Lato', sans-serif;
 }
 
-.description > h4
-{
-	margin:0px;
-	padding:20px;
-	font-size:17px;
-}
-
 .read_more
 {
-	margin-top:0px;
-	margin-left:auto;
-	margin-right:auto;
 	padding-top:15px;
-	height: 94px;
 	text-align:center;
-	width:220px;
 }
 
 a.btnlink
 {
+	margin-left:auto;
+	margin-right:auto;
 	display:block;
-	margin:auto;
 	padding-top: 20px;
 	background-color:#EEBB00;
-	height: 50px;
+	height: 75px;
 	width:220px;
 	font-size:23px;
 	letter-spacing:2px;
@@ -197,10 +176,12 @@ a.btnlink:hover
 
 .footer_1
 {
-	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:center;
-	height:68px;
 	display: block;
+	margin-top:15px;
+	margin-bottom: 200px;
 }
 	
 .socials
