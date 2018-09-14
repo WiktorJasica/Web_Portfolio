@@ -256,14 +256,14 @@ a.btnlink:hover
 /*TECHNOLOGIES - ARTICLE*/
 #technologies_art
 {
-	margin:0px;
 	background-image: url("img/cream_pixels.png");
 }
 	
 .technologies_sc1
 {
 	text-align:center;
-	padding-top:120px;
+	padding-top:150px;
+	width:100%;
 }
 .technologies_text
 {
@@ -387,7 +387,6 @@ a.btnlink:hover
 /*PROJECTS - ARTICLE*/
 #projects
 {
-	margin:0px;
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/paper_fibers.png");
 }
@@ -395,7 +394,8 @@ a.btnlink:hover
 .proj_sc1
 {
 	text-align:center;
-	padding-top:120px;
+	padding-top:150px;
+	width:100%;
 }
 
 .proj_text
@@ -443,7 +443,6 @@ a.btnlink:hover
 
 .overlay_d > img
 {
-	margin:0px;
 	height: 100%;
 	width:100%;
 	border: 1px solid gray;
@@ -499,7 +498,6 @@ a.btnlink:hover
 
 .overlay_w > img
 {
-	margin:0px;
 	height: 100%;
 	width:100%;
 	border: 1px solid gray;
@@ -580,62 +578,43 @@ a.btnlink:hover
 /*COURSES - ARTICLE*/
 #courses
 {
-	margin:0px;
-	height:800px;	
-}
-
-.courses_container
-{
-	margin:0px;
-	height:800px;
+	background:#fff;	
 }
 
 .courses_sc1
 {
-	margin:0px;
-	height:150px;
+	text-align:center;
+	padding-top:150px;
+	width:100%;
 }
 
 .courses_text
 {
-	margin:0px;
-	height: 80px;
+	
+	height: 100%;
+	width:100%;
 	font-size: 35px;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	letter-spacing:3px;
-	padding-top: 70px;
-	line-height: 35px;
-	text-align:center;
 }
 
 .courses_sc2
 {
-	margin: 0px;
-	height: 550px;
-}
-
-.courses_blocks
-{
-	margin: 0px;
-	height: 550px;
+	padding-top:30px;
+	width:100%;
 }
 
 .course_block
 {
-	margin-top:0px;
 	margin-right: auto;
 	margin-left:auto;
-	height:550px;
-	width: 455.3333px;
 }
 
 .block_logo
 {
-	margin-top:0px;
 	margin-right: auto;
 	margin-left:auto;
-	height: 150px;
 	width:150px;
 	border-radius:100%;
 }
@@ -643,26 +622,23 @@ a.btnlink:hover
 .block_logo > img
 {
 	margin-top:0px;
-	height: 148px;
-	width:148px;
+	height: 100%;
+	width:100%;
 	border-radius:100%;
 	border: 1px solid #ccccb3;
 }
 
 .block_course_element
 {
-	margin-top:50px;
-	height: 350px;
+	padding-top:50px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .page_name
 {
-	margin-top:0px;
 	margin-left:auto;
 	margin-right:auto;
-	height: 30px;
-	width:70%;
+	width:100%;
 	background-color:#d6d6c2;
 	text-align:center;
 	font-weight:bold;
@@ -675,11 +651,10 @@ a.btnlink:hover
 
 .course_desc
 {
-	margi-top:Spx;
+	margi-top:5px;
 	margin-left:auto;
 	margin-right:auto;
-	height: 70px;
-	width:70%;
+	width:100%;
 	background-color:white;
 	text-align:center;
 	letter-spacing:1px;
@@ -691,11 +666,9 @@ a.btnlink:hover
 
 .certificate
 {
-	margi-top: 0px;
 	margin-left:auto;
 	margin-right:auto;
-	height: 20px;
-	width:70%;
+	width:100%;
 	background-color:#e60000;
 	text-align:center;
 	font-weight:bold;
@@ -718,15 +691,14 @@ a.btnlink:hover
 
 .courses_footer
 {
-	margin: 0px;
-	height: 100px;
+	display:block;
+	margin-top:70px;
+	padding-bottom:50px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .footer_txt
 {
-	margin: 0px;
-	height: 100px;
 	text-align:center;
 	font-size:19px;
 }
