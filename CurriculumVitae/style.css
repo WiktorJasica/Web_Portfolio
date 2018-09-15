@@ -208,7 +208,7 @@ a.btnlink:hover
 /*ABOUTME - ARTICLE*/
 #about_me
 {
-	margin: 0px;
+	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/qbkls.png");
 }
 
@@ -256,7 +256,9 @@ a.btnlink:hover
 /*TECHNOLOGIES - ARTICLE*/
 #technologies_art
 {
+	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/cream_pixels.png");
+	width:100%;
 }
 	
 .technologies_sc1
@@ -706,92 +708,82 @@ a.btnlink:hover
 /*EXPERIENCE - ARTICLE*/
 #experience
 {
-	margin:0px;
-	height:1200px;
 	/* Background pattern from Toptal Subtle Patterns*/
 	background-image: url("img/paper_fibers.png");
 }
 
-.exp_container
-{
-	margin:0px;
-	height:1200px;
-}
-
 .exp_sc1
 {
-	margin:0px;
-	height:150px;
+	text-align:center;
+	padding-top:150px;
+	width:100%;
 }
 
 .exp_text
 {
-	margin:0px;
-	height: 80px;
+	height: 100%;
+	width:100%;
 	font-size: 35px;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	letter-spacing:3px;
-	padding-top: 70px;
-	text-align:center;
 }
 	
 .exp_sc2
 {
-	margin:0px;
-	height:1050px;
+	padding-top:50px;
+	width:100%;
 }
 	
-.time_line
-{
-	margi:0px;
-	height:1050px;
-}
-
 .time_row_left
 {
-	margi-top:0px;
-	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	background:green;
 }
 
 .time_row_right
 {
-	margi-top:0px;
-	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	background:orange;
 }
 
 .line
 {
 	margin-left:auto;
 	margin-right:auto;
-	height:50px;
+	padding-top:50px;
 	width:2px;
 	background-color: #ccccb3;
 }
 
 .company_left
 {
-	margin-top:0px;
-	margin-left:150px;
-	height:150px;
-	width:400px;
+	position:absolute;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
 	text-align:right;
 	font-family: 'Roboto Condensed', sans-serif;
 	float:left;
+	background-color:gray;
 }
 
 .div_img_left
 {
+	position:relative;
 	float:left;
-	margin-left:50px;
+	width:100%;
+	background-color:orange;
 }
 
 .company_right
 {
-	margin-top:0px;
 	margin-left:50px;
-	height:150px;
-	width:400px;
+	width:100%px;
 	text-align:left;
 	font-family: 'Roboto Condensed', sans-serif;
 	float:left;
@@ -800,12 +792,13 @@ a.btnlink:hover
 .div_img_right
 {
 	float:left;
-	margin-left:600px;
+	width:100%;
 }
 
 .company_img
 {
-	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
 	display:block; 
 	height: 148px;
 	width:148px;
